@@ -1,3 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/storybook-static
+/dev-dist
+dist
+dist-ssr
+
+# misc
+*.local
+.DS_Store
+
+
 # Logs
 logs
 *.log
@@ -7,14 +29,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# react
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+# cache
+.eslintcache
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
@@ -22,3 +50,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# sonnar
+.scannerwork
+sonar.sh
