@@ -15,5 +15,10 @@ export default (configEnv: ConfigEnv): UserConfig => {
     plugins: createVitePlugins(isBuild, configEnv),
     build: createViteBuild(),
     server: createViteServer(),
+    css: {
+      modules: {
+        localsConvention: 'camelCaseOnly',
+      },
+    },
   };
 };

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires, no-undef */
+/* eslint-disable @typescript-eslint/no-var-requires */
 // CommonJS
 const fs = require('fs');
 const path = require('path');

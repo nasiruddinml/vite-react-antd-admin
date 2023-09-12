@@ -245,7 +245,6 @@ module.exports = {
     'no-this-before-super': 'error',
     'require-yield': 'error',
     'arrow-spacing': ['error', { before: true, after: true }],
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'comma-style': ['error', 'last'],
     'camelcase': 'off',
     'array-bracket-spacing': ['error', 'never'],

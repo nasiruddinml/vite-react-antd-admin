@@ -1,0 +1,13 @@
+.svg-icon {
+  height: 1em;
+  line-height: 1em;
+  font-size: 1em;
+  display: block;
+}
+.svg-icon .svg {
+  width: 1em;
+  height: 1em;
+}
+.svg-icon .svg use {
+  fill: currentColor;
+}

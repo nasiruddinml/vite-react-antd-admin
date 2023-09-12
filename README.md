@@ -198,3 +198,45 @@ There are two more scripts:
 `preview` and `lint`
 
 - `preview` command will boot up local static web server that serves the files from `dist` folder. It's an easy way to check if the production build looks OK in your local environment.
+
+## How to contribute
+
+**Pull Request:**
+
+1. Fork Code!
+2. Create your own branch: `git checkout -b feature/xxxx`
+3. Submit your changes: `git commit -m 'feature: add xxxxx'`
+4. Push your branch: `git push origin feature/xxxx`
+5. Submit: `pull request`
+
+## Git Contribution submission specification
+
+- Refer to [Vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) specification
+
+  - `feat` New Features
+  - `fix` Repair defects
+  - `docs` Document change
+  - `style` Code format
+  - `refactor` Code refactoring
+  - `perf` Performance optimization
+  - `test` Add neglected tests or changes to existing tests
+  - `build` Build processes, external dependency changes (such as upgrading npm packages, modifying packaging configurations, etc.)
+  - `ci` Modify CI configuration and scripts
+  - `revert` Roll back the commit
+  - `chore` Changes to the build process or tools and libraries (do not affect source files)
+  - `wip` Under development
+  - `types` Type definition file modification
+
+## Browser Support
+
+Chrome 80+ is recommended for local development
+
+Supports modern browsers
+
+## maintainers
+
+[@nasiruddinml](https://github.com/nasiruddinml)
+
+## License
+
+[MIT © 2022](./LICENSE)

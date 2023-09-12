@@ -1,0 +1,18 @@
+.color-list {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'space-between';
+  .color-list-item {
+    width: 20;
+    height: 20;
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'space-between';
+  }
+}
+
+.options {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'space-between';
+}

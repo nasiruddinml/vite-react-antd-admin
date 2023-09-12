@@ -1,0 +1,9 @@
+.app-account {
+  display: flex;
+  align-items: center;
+  .wave {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}

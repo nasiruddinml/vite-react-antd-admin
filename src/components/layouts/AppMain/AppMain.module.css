@@ -1,0 +1,10 @@
+.app-main {
+  display: flex;
+  flex-direction: column;
+  .main-content {
+    padding: 12px;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+  }
+}
